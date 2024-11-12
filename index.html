@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <title>Jogo da Memória - Sonic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+      
+        <h1>Jogo da Memória </h1>
+        <p>Encontre os pares de personagens!</p>
+        <div id="game-board" class="game-board"></div>
+        <button id="reset-btn" onclick="resetGame()">Reiniciar Jogo</button>
+    </div>
+    <div id="victory-message">Parabéns Lucca! Você ganhou nota 10!</div>
+    
+    <audio id="victory-sound" src="sounds/victory.mp3"></audio>
+
+    <div id="stars-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
